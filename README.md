@@ -2,23 +2,26 @@
 
 ## Questions (10 Points Possible)
 1. What would happen if you try to use a variable that is not in scope?
-
+It will begin a error, since that vriable cannot be access outside its code block.
 2. Describe the three As of a test:  
-A -   
-A -   
-A -   
+A - Arrange: setup the objects, variables, etc. that you need for the test.
+  
+A - Act: execute the method correctly.
+
+A - Assert: what to expect from the successful execution of the method.
+  
 
 3. What is the difference between `public` and `private` access modifiers?
-
+Locked or unlocked. Private can only be accessed inside the same class. Public can be accessed anywhere.
 4. A method should:  (**Select all that apply**) <br/>
-(A) Make changes to an object  
-(B) Return some information about an object  
-(C) Make changes to an object and return information about the object.  
+(A) Make changes to an object  <<<<<<<<<<<
+(B) Return some information about an object  <<<<<<<<<<
+(C) Make changes to an object and return information about the object. <<<<<<<<<<<<< 
 (D) None of the Above.  
 
 
 5. How did you determine what to answer for the question above?
-
+I know that methods are meant to make changes to your code and your object. And also some Methods return information about a object. Or in other words Commands and Querys.
 ## Exercise (10 Points Possible)
 
 Clone your forked copy of this repository into Visual Studio.  
